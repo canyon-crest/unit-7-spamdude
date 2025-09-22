@@ -60,7 +60,7 @@ public class Unit7 {
         ArrayList<Integer> result = new ArrayList<>();
         for (int value: list) {
             if (value % 2 == 0) {
-                result.add(value)
+                result.add(value);
             }
         }
         return result;  // Placeholder return value
@@ -84,7 +84,6 @@ public class Unit7 {
     // DO NOT use Collections or other methods beyond size(), add(), get(), set(), and remove().
     public static void reverseList(ArrayList<Integer> list) {
         // TODO: Implement this method
-        // DOCTOS IT'S BROKEN
         int tmp;
         int size = list.size();
         for (int $ = 0; $ < size/2; $++) {

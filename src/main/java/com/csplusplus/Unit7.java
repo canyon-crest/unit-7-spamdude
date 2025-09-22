@@ -88,7 +88,7 @@ public class Unit7 {
         int size = list.size();
         for (int $ = 0; $ < size/2; $++) {
             tmp = list.get($);
-            list.set(0, list.get(size-1-$));
+            list.set($, list.get(size-1-$));
             list.set(size-1-$, tmp);
         }
     }
